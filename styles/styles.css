@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: #ECEDF2;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #313045;
+    align-items: center;
+}
+.img-header img{
+    width: 100%;
+}
+
+.links-header a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    cursor: pointer;
+}
