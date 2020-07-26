@@ -28,9 +28,11 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
   .icon-mMenu:before {
     content: "\e900";
+  }
+  .container-four{
+      background-color: #313045;
   }
 .container{
     display: flex;
@@ -114,6 +116,113 @@ body{
     top: -30px;
     left: 135px;
     z-index: 2;
+}
+.container-process{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: #313045;
+    align-items: center;
+    max-width: 100%;
+    color: white;
+    margin-bottom: 10px;
+}
+.container-process p {
+    font-size: 30px;
+}
+.container-text-processThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #313045;
+    font-size: 15px;
+}
+.container-text-skipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F71B1B;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+.container-text-skipe:hover{
+    text-decoration: underline;
+}
+.container-process-four{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: white;
+    align-items: center;
+    max-width: 100%;
+    color: black;
+    border: 0.5px solid #707070;
+    border-radius: 10px;
+}
+.container-process-four p {
+    font-size: 30px;
+}
+.container-process-four-two{
+    margin: 20px 40px;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background-color: white;
+    align-items: center;
+    max-width: 100%;
+    color: black;
+    border: 1px solid #707070;
+}
+.container-process-four-two h1{
+    color: #313045;
+}
+.container-process-four-two p {
+    font-size: 15px;
+    color: #313045;
+}
+.container-process-four-two a {
+    display: flex;
+    background-color: #24F4C4;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.title-nav-detail{
+    margin: 20px 40px;
+    padding: 40px;
+    background-color: white;
+    bottom: 0;
+}
+.container-img-five{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+.main-login{
+    bottom: 0;
+    text-align: center;
+
+}
+.main-login p{
+    color: white;
+    margin-bottom: 50px;
+}
+.main-login a{
+    margin-top: 20px;
+    color: white;
+    background-color: #3240E6;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
 }
 
 
