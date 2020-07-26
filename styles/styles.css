@@ -38,6 +38,7 @@ body{
     padding: 50px;
     background-color: #313045;
     align-items: center;
+    max-width: 100%;
 }
 .img-header img{
     width: 100%;
@@ -71,6 +72,50 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+.main-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-container a {
+    text-decoration: none;
+    color: black;
+}
+.main-container-img{
+    margin: 20px 40px;
+    margin-top: -25px;
+    background-color: white;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.promotion-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.promotion-container .two{
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+.promotion-container a {
+    text-decoration: none;
+}
+.promotion-container a h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -30px;
+    left: 135px;
+    z-index: 2;
+}
+
 
 footer p{
     display: flex;
