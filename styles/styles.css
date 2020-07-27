@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: #ECEDF2;
+    background: #ECEDF2 ;
+    background-repeat: no-repeat;
 }
 @font-face {
     font-family: 'icomoon';
@@ -34,11 +35,27 @@ body{
   .container-four{
       background-color: #313045;
   }
+.body-space{
+    background: linear-gradient(#313045, #B189BD);
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
 .container{
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: #313045;
+    background: #313045;
+    align-items: center;
+    max-width: 100%;
+}
+.container-lineal{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background:linear-gradient( #313045);
     align-items: center;
     max-width: 100%;
 }
@@ -74,6 +91,9 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+.img-pizzas{
+    width: 100%;
+}
 .main-container{
     display: flex;
     text-align: center;
@@ -94,36 +114,32 @@ body{
     text-align: center;
     border-radius: 5px;
 }
+.promotion-text{
+    margin: 20px 40px;
+    padding: 15px;
+    display: flex;
+    color: #313045;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
 .promotion-container{
     display: flex;
+    text-align: center;
+    max-width: 100%;
+    align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    text-decoration: none;
 }
-.promotion-container .two{
-    width: 100%;
-    position: relative;
-    top: 45px;
-}
-.promotion-container a {
-    text-decoration: none;
-}
-.promotion-container a h2 {
-    color: white;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    top: -30px;
-    left: 135px;
-    z-index: 2;
+.promotion-container img{
+    max-width: 100%;
 }
 .container-process{
+    margin: 20px 20px;
     display: flex;
     justify-content: space-between;
     padding: 0px 50px;
     background-color: #313045;
     align-items: center;
-    max-width: 100%;
     color: white;
     margin-bottom: 10px;
 }
@@ -172,9 +188,13 @@ body{
     padding: 0px 50px;
     background-color: white;
     align-items: center;
+    bottom: 0;
     max-width: 100%;
     color: black;
     border: 1px solid #707070;
+}
+.container-process-four-two img{
+    margin-top: 15px;
 }
 .container-process-four-two h1{
     color: #313045;
@@ -199,6 +219,37 @@ body{
     padding: 40px;
     background-color: white;
     bottom: 0;
+    text-align: center;
+}
+.title-nav-detail img{
+    bottom: 0;
+    text-align: center;
+}
+.title-nav-detail h2{
+    color: #707070;
+    font-weight: bold;
+    text-align: center;
+}
+.title-nav-detail h3{
+    text-align: center;
+}
+.title-nav-detail p{
+    bottom: 0;
+    color: #707070;
+    text-align: center;
+}
+.title-nav-detail a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 13px;
+}
+.title-nav-detail a:hover{
+    text-decoration: underline;
+}
+.title-nav-detail h4{
+    bottom: 0;
+    color: #313045;
+    text-align: center;
 }
 .container-img-five{
     display: flex;
@@ -223,6 +274,35 @@ body{
     text-decoration: none;
     padding: 15px;
     font-size: 20px;
+}
+.container-login-open{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-date{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    justify-content: space-between;
+}
+.container-return a{
+    margin: 20px 40px;
+    display: flex;
+    color: #F71B1B;
+    text-decoration: none;
+}
+.container-return a:hover{
+    text-decoration: underline;
+}
+.botton-send a{
+    margin: 20px 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: #24F4C4;
+    padding: 15px;
 }
 
 

@@ -1,10 +1,13 @@
-@media screen and (max-width:1024px){
+@media screen and (min-width:768px){
     .body-static{
         position: static;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
+    }
+    footer{
+        margin-top: 380px;
     }
 }
 @media screen and (max-width:767px){
@@ -53,11 +56,49 @@
         left: 0;
     }
 }
-@media screen and (max-width:480px){
+@media screen and (min-width:414px) and (max-width:480px){
     .links-header a {
         position: relative;
         left: -15px;
         margin-bottom: 25px;
+    }
+    .img-responsiv-one{
+        width: 100%;
+    }
+    .img-responsiv-two{
+        width: 100%;
+    }
+    .img-responsiv-ham{
+        width: 100%;
+    }
+    .img-responsiv-pepperoni{
+        width: 50%;
+    }
+}
+@media screen and (max-width:375px){
+    .main-container{
+        display: block;
+        margin-bottom: 50px;
+    }
+    .main-container-img {
+        margin-bottom: 30px;
+    }
+    .main-container-img{
+        margin-top: 30px;
+    }
+    .promotion-container a h2{
+        font-size: 30px;
+        position: relative;
+        left: 100px;
+    }
+    .title-nav-detail h2{
+        font-size: 17px;
+    }
+    .title-nav-detail h4{
+        font-size: 25px;
+    }
+    .title-nav-detail p{
+        font-size: 12px;
     }
 }
 @media screen and (max-width:320px){
@@ -84,5 +125,22 @@
         font-size: 30px;
         position: relative;
         left: 100px;
+    }
+    .container-process-four img{
+        position: relative;
+        left: -20px;
+        width: 120px;
+    }
+    .title-nav-detail h2{
+        font-size: 17px;
+    }
+    .title-nav-detail h4{
+        font-size: 25px;
+    }
+    .title-nav-detail p{
+        font-size: 12px;
+    }
+    .container-login-open img{
+        width: 100%;
     }
 }
